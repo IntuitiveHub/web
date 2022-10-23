@@ -1,0 +1,145 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .navigation {
+                        height: 74px;
+                        /*background-color: #fef6e8;*/
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-family: var(--font2);
+                    }
+                    
+                    .content {
+                        height: 400px;
+                        align-items: center;
+                        background-color: whitesmoke;
+                        border-radius: 100px;
+                    }
+                    
+                    .footer {
+                        height: 50px;
+                        /*background-color: #f6bc9c;*/
+                        font-family: var(--font1);
+                        align-items: center;
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .footer a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                    
+                    .nav-left {
+                        font-size: 35px;
+                        display: flex;
+                    }
+                    
+                    .nav-left ul li {
+                        list-style: none;
+                        margin: 0 20px;
+                        font-family: var(--font1);
+                        transition: 0.3s ease-in-out;
+                    }
+                    
+                    .nav-left ul li a {
+                        text-decoration: none;
+                        color: #2f3c40;
+                    }
+                    
+                    .nav-left ul {
+                        margin: 0 60px;
+                        display: flex;
+                        align-items: center;
+                        font-size: 20px;
+                    }
+                    
+                    .content-left {
+                        font-family: var(--font1);
+                        margin: 60px;
+                        width: 50%;
+                    }
+                    
+                    .content-left p {
+                        font-size: 20px;
+                    }
+                    
+                    .content {
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .content-right {
+                        font-family: var(--font2);
+                        width: 50%;
+                    }
+                    
+                    .content-right-b {
+                        font-family: var(--font2);
+                        width: 50%;
+                    }
+                    
+                    .content-right-b img {
+                        border-radius: 20px;
+                        margin: 60px;
+                    }
+                    
+                    .content-right img {
+                        border-radius: 400px;
+                        margin: 60px;
+                    }
+                    
+                    .nav-left ul li a:hover {
+                        color: var(--main-bg-color);
+                        font-weight: bold;
+                    }
+                    
+                    .home-articles {
+                        height: 550px;
+                        background-color: whitesmoke;
+                        font-family: var(--font1);
+                        border-radius: 100px;
+                    }
+                    
+                    .home-articles img {
+                        border-radius: 20px;
+                        height: 200px;
+                    }
+                    /*.home-articles {}*/
+                    
+                    .home-article {
+                        display: flex;
+                        margin: 50px;
+                    }
+                    
+                    .home-articles h2 {
+                        display: flex;
+                        padding: 60px;
+                    }
+                    
+                    .home-article-content {
+                        align-self: center;
+                        margin: 30px;
+                    }
+                    
+                    .font1 {
+                        font-family: var(--font1);
+                    }
+                    
+                    .font2 {
+                        font-family: var(--font2);
+                    }
+                    
+                    .home-article-content a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                    
+                    .home-article-content a:hover {
+                        color: #2d3c41;
+                        text-decoration: underline;
+                    }

@@ -106,19 +106,21 @@
                     }
                     
                     .home-articles img {
-                        border-radius: 20px;
                         height: 200px;
+                        padding: 0px 15px;
+                        border-radius: 20px;
                     }
                     /*.home-articles {}*/
                     
                     .home-article {
                         display: flex;
-                        margin: 50px;
+                        padding: 25px;
+                        padding-top: 20px;
                     }
                     
                     .home-articles h2 {
                         display: flex;
-                        padding: 60px;
+                        padding: 30px;
                     }
                     
                     .home-article-content {
@@ -142,4 +144,9 @@
                     .home-article-content a:hover {
                         color: #2d3c41;
                         text-decoration: underline;
+                    }
+                    
+                    .home-article-content {
+                        align-self: center;
+                        padding: 0px 10px;
                     }
